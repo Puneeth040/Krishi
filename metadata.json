@@ -1,0 +1,6 @@
+{
+  "name": "Krishi Mitra",
+  "description": "A comprehensive assistant for farmers providing weather, market rates, leaf disease scanning, and a voice assistant named Chitti.",
+  "requestFramePermissions": ["camera", "microphone", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

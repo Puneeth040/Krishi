@@ -1,0 +1,41 @@
+export const karnatakaDistricts = [
+  "Bagalkot", "Ballari", "Belagavi", "Bengaluru Rural", "Bengaluru Urban", "Bidar", 
+  "Chamarajanagar", "Chikkaballapur", "Chikkamagaluru", "Chitradurga", "Dakshina Kannada", 
+  "Davanagere", "Dharwad", "Gadag", "Hassan", "Haveri", "Kalaburagi", "Kodagu", 
+  "Kolar", "Koppal", "Mandya", "Mysuru", "Raichur", "Ramanagara", "Shivamogga", 
+  "Tumakuru", "Udupi", "Uttara Kannada", "Vijayapura", "Yadgir", "Vijayanagara"
+];
+
+export const districtTaluks: Record<string, string[]> = {
+  "Bagalkot": ["Bagalkot", "Badami", "Guledgudda", "Rabkavi Banhatti", "Hungund", "Ilkal", "Jamkhandi", "Mudhol", "Bilgi", "Mahalingpur", "Teradal"],
+  "Ballari": ["Ballari", "Kurugodu", "Sandur", "Siruguppa", "Kampli"],
+  "Belagavi": ["Belagavi", "Athani", "Bailhongal", "Chikkodi", "Gokak", "Hukkeri", "Khanapur", "Mudalgi", "Nippani", "Ramdurg", "Raybag", "Savadatti", "Kagwad"],
+  "Bengaluru Rural": ["Devanahalli", "Doddaballapura", "Hoskote", "Nelamangala"],
+  "Bengaluru Urban": ["Bengaluru North", "Bengaluru South", "Bengaluru East", "Anekal", "Yelahanka"],
+  "Bidar": ["Bidar", "Basavakalyan", "Bhalki", "Homnabad", "Aurad", "Chitgoppa", "Kamalnagar", "Hulsoor"],
+  "Chamarajanagar": ["Chamarajanagar", "Gundlupet", "Kollegal", "Yelandur", "Hanur"],
+  "Chikkaballapur": ["Chikkaballapur", "Bagepalli", "Chintamani", "Gauribidanur", "Gudibanda", "Sidlaghatta"],
+  "Chikkamagaluru": ["Chikkamagaluru", "Kadur", "Koppa", "Mudigere", "Narasimharajapura", "Sringeri", "Tarikere", "Ajjampura"],
+  "Chitradurga": ["Chitradurga", "Challakere", "Hiriyur", "Holalkere", "Hosadurga", "Molakalmuru"],
+  "Dakshina Kannada": ["Mangaluru", "Bantwal", "Beltangady", "Puttur", "Sullia", "Moodabidri", "Kadaba"],
+  "Davanagere": ["Davanagere", "Harihara", "Channagiri", "Honnali", "Jagalur", "Nyaamathi"],
+  "Dharwad": ["Dharwad", "Hubballi", "Hubballi City", "Kalghatgi", "Navalgund", "Kundgol", "Alnavar", "Annigeri"],
+  "Gadag": ["Gadag", "Mundargi", "Nargund", "Ron", "Shirahatti", "Gajendragad", "Lakshmeshwar"],
+  "Hassan": ["Hassan", "Arasikere", "Alur", "Arkalgud", "Belur", "Channarayapatna", "Hole Narsipur", "Sakleshpur"],
+  "Haveri": ["Haveri", "Byadgi", "Hangal", "Hirekerur", "Ranebennur", "Savanur", "Shiggaon", "Rattihalli"],
+  "Kalaburagi": ["Kalaburagi", "Afzalpur", "Aland", "Chincholi", "Chitapur", "Jevargi", "Sedam", "Shahabad", "Kalagi", "Kamalapur", "Yedrami"],
+  "Kodagu": ["Madikeri", "Somwarpet", "Virajpet", "Kushalnagar", "Ponnampet"],
+  "Kolar": ["Kolar", "Bangarapet", "Malur", "Mulbagal", "Srinivaspur", "KGF"],
+  "Koppal": ["Koppal", "Gangavathi", "Kushtagi", "Yelbarga", "Kanakagiri", "Karatagi", "Kuknoor"],
+  "Mandya": ["Mandya", "Maddur", "Malavalli", "Nagamangala", "Pandavapura", "Srirangapatna", "Krishnarajpet"],
+  "Mysuru": ["Mysuru", "Hunsur", "Krishnarajanagara", "Nanjangud", "Piriyapatna", "T.Narsipur", "H.D. Kote", "Saragur", "Saligrama"],
+  "Raichur": ["Raichur", "Devadurga", "Lingsugur", "Manvi", "Sindhanur", "Maski", "Sirwar"],
+  "Ramanagara": ["Ramanagara", "Channapatna", "Kanakapura", "Magadi"],
+  "Shivamogga": ["Shivamogga", "Bhadravathi", "Hosanagara", "Sagar", "Shikaripura", "Soraba", "Thirthahalli"],
+  "Tumakuru": ["Tumakuru", "Chikkanayakanahalli", "Gubbi", "Koratagere", "Kunigal", "Madhugiri", "Pavagada", "Sira", "Tiptur", "Turuvekere"],
+  "Udupi": ["Udupi", "Karkala", "Kundapura", "Byndoor", "Brahmavara", "Kaup", "Hebri"],
+  "Uttara Kannada": ["Karwar", "Ankola", "Bhatkal", "Haliyal", "Honnavar", "Joida", "Kumta", "Mundgod", "Siddapur", "Sirsi", "Yellapur", "Dandeli"],
+  "Vijayapura": ["Vijayapura", "Indi", "Sindagi", "Basavana Bagewadi", "Babaleshwar", "Chadchan", "Tikota", "Mamadhapur", "Kolhar", "Nidagundi", "Devara Hipparagi", "Talikoti", "Almel"],
+  "Yadgir": ["Yadgir", "Shahapur", "Shorapur", "Gurmitkal", "Hunasagi", "Wadgera"],
+  "Vijayanagara": ["Hospet", "Hagaribommanahalli", "Harapanahalli", "Hoovina Hadagali", "Kotturu", "Kudligi"]
+};
